@@ -1,13 +1,13 @@
 #!/bin/bash
 DATE=$(date +%Y%m%d)
-COMPANY=PD
-DBFDIR=/orastage/oracle/oradata/pdora
+COMPANY=name
+DBFDIR=/orastage/oracle/oradata/sid
 FRADIR=/orastage/oracle/fast_recovery_area
 SYSLOG=/var/log
-DOMAIN=jdturkiye.com
-ADMINS=erpbkps@jdturkiye.com
+DOMAIN=domain.name
+ADMINS=to.go@$DOMAIN
 MAILSVR=mail
-FROM=$COMPANY.$HOSTNAME@jdturkiye.com
+FROM=$COMPANY.$HOSTNAME@$DOMAIN
 LOG=$SYSLOG/knn_dcheck.log
 
 SPRT="____________________________________________________________________________________________________"
