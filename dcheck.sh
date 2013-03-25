@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -- test
 DATE=$(date +%Y%m%d)
 COMPANY=name
 DBFDIR=/orastage/oracle/oradata/sid
